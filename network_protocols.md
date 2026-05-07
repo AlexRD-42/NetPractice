@@ -64,6 +64,12 @@ A network is defined as two or more devices connected together, so here the IP p
 There are two internet protocols, IPv4 (32-bits) and IPv6 (128-bits)
 
 IPv4: 
+ex: 192.168.1.1
+
+Has 4 octets, of which the first 3 are called the network portion and the latter is the host portion.
+The host just means a device that receives a usable IP.
+
+The first and last ip of the network, aka __.0 and __.255 are reserved
 
 
 
