@@ -58,12 +58,23 @@ Applications communicate with each other using the transport layer. One acts as 
 
 TCP vs UDP
 
+### Terminology
+Gateways, routers, switches
+
+MAC Address
+
+ARP Table
+
+Routing table
+
+Host: endpoint
+
 ### Network Layer: Layer 3
 A network is defined as two or more devices connected together, so here the IP protocol is used to identify the devices on the network. The sender and the receiver's IP address goes into the packet.
 
 There are two internet protocols, IPv4 (32-bits) and IPv6 (128-bits)
 
-IPv4: 
+IPv4:
 ex: 192.168.1.1
 
 Has 4 octets, of which the first 3 are called the network portion and the latter is the host portion.
@@ -71,10 +82,29 @@ The host just means a device that receives a usable IP.
 
 The first and last ip of the network, aka __.0 and __.255 are reserved
 
+New:
+
+Historically, IPs were handed to universities and companies on a class basis, of which there are 5:
+
+Class A: 10 prefix
+Class B:
+Class C:
+Class D:
+Class E:
+
+Commonly used intra is 10.0.0._
+
+The agency responsible to handing out IPs started to "recall" the IPs they handed out, so they could redistribute it more like a postal code scheme.
+Some companies refused, like google that still has 8.8. domain
 
 
 ### Data Link Layer: Layer 2
 This is essentially your intra-network, meaning it operates within a single local network segment, connected by Ethernet or PPP. Here the PDU is described as a frame, and it contains things like MAC addresses.
+
+
+### Subnetting, NATs, Gateways and Routers
+
+
 
 
 
